@@ -1,0 +1,49 @@
+.container{
+    /* width: 100%;  
+    padding-left: 16px;
+    padding-right: 16px; */
+} 
+
+@media screen and (min-width: 767px) {
+    .container{
+        width: 736px;
+        /* background-color: rgb(128, 174, 128); */
+    }
+    .block{
+        display: inline-block;
+    }
+    .header-item{
+        margin-left: 40px;
+    }
+    .header-info{
+        font-size: 12px;
+        line-height: 1.33;        
+    }
+    .header-flex{
+        display: flex;
+        justify-content: space-between;        
+    }
+    .header-logo{
+        margin-right: 80px;
+    }
+
+}  
+
+/*hero image*/
+
+@media screen and (min-width: 767px) {
+    .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/tablet-hero-img-1x.jpg);
+        height: 436px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and  (min-width: 767px), 
+screen and (min-resolution: 192dpi) and  (min-width: 767px),
+screen and (min-resolution: 2dppx) and  (min-width: 767px)
+{
+    .hero-section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/tablet-hero-img-2x.jpg);
+        height: 436px;
+    }
+}

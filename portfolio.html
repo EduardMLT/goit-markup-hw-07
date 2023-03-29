@@ -19,34 +19,47 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body class="tmp-brdr">
     <header class="header-section header-line tmp-brdr">
-      <div class="container header-justify">
-        <nav class="header-navigtion tmp-brdr block">
-          <!--переходи по сайту-->
-          <a href="./index.html" class="header-logo">
-            <span class="header-logo-color">Web</span>Studio</a
-          >
+      <div class="container header-flex">
+        <div class="header-justify">
+          <nav class="tmp-brdr block block-modal">
+            <!--переходи по сайту-->
+            <a href="./index.html" class="header-logo">
+              <span class="header-logo-color">Web</span>Studio</a
+            >
 
-          <ul class="header-list list block">
-            <li class="header-item tmp-brdr block">
-              <a href="./index.html" class="header-link link">Studio</a>
-            </li>
-            <li class="header-item tmp-brdr block">
-              <a href="./portfolio.html" class="header-link link aktive"
-                >Portfolio</a
-              >
-            </li>
-            <li class="header-item tmp-brdr block">
-              <a href="" class="header-link link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+            <ul class="header-list list block">
+              <li class="header-item tmp-brdr block">
+                <a href="./index.html" class="header-link link aktive"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-item tmp-brdr block">
+                <a href="./portfolio.html" class="header-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-item tmp-brdr block">
+                <a href="" class="header-link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="modal-menu-button">
+            <svg class="modal-burger-color" width="32" height="32">
+              <use href="./images/icons-optymisov.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+        </div>
+
         <address class="header-retreat-raz">
-          <ul class="list link">
+          <ul class="list link header-list-address">
             <li class="header-item tmp-brdr block-inline">
               <a href="mailto:info@devstudio.com" class="header-info link"
                 >info@devstudio.com</a
@@ -69,7 +82,7 @@
           <h1 class="visually-hidden">Portfolio</h1>
           <!-- список - набір радіо-кнопок-->
 
-          <ul class="prtf-filtr list tmp-brdr prtf-block">
+          <!-- <ul class="prtf-filtr list tmp-brdr prtf-block">
             <li class="prtf-block-dis">
               <button type="button" class="prtf-button-grunt">All</button>
             </li>
@@ -85,11 +98,11 @@
             <li class="prtf-block-dist">
               <button type="button" class="prtf-button-grunt">Marketing</button>
             </li>
-          </ul>
+          </ul> -->
 
           <!--фото наших робіт CARDS-->
 
-          <ul class="list cards-block">
+          <!-- <ul class="list cards-block">
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
@@ -287,15 +300,14 @@
                 </div>
               </a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </section>
     </main>
 
     <footer class="footer-grunt">
-      <!--footer-->
-
-      <div class="container">
+      
+      <!-- <div class="container">
         <div class="footer-block-block">
           <div class="footer-block">
             <a href="./portfolio.html" class="footer-logo-color">
@@ -338,9 +350,9 @@
                 </a>
               </li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="footer-subscribe">
+          <!-- <div class="footer-subscribe">
             <form class="footer-subscribe-contact-form">
               <div>
                 <label for="email-foot" class="footer-subscribe-label">
@@ -366,7 +378,7 @@
                   </div>
               </div>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>

@@ -24,7 +24,7 @@
 
 .header-line{
     border-bottom: 1px solid var(--footer-text-color);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 2px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -86,7 +86,7 @@ ul {
 
 .li-block-dist{
     margin-left: 24px;
-} 
+}  
 
 .li-block-dist:first-child{
     margin-left: 0;
@@ -104,7 +104,7 @@ ul {
     outline: 2px solid var(--color-tmp-brdr);
 } 
 
-.block{
+ /* .block{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,10 +112,10 @@ ul {
 
 .block-inline{
     display: inline-block;
-}
+} */
 
-.container{
-    width: 1158px;
+/*.container{
+    max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -126,13 +126,13 @@ ul {
     padding-top: 24px;
     padding-bottom: 24px;
     
-}
+}*/
 
-.header-justify{
+/* .header-justify{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}    */
 
 .header-logo{
     font-family: 'Raleway' , sans-serif;    
@@ -142,7 +142,7 @@ ul {
     text-transform: uppercase;
     color: var(--accent-color-logo-grunt);
     text-decoration: none;
-    margin-right: 26px;
+     
 }
 
 .header-logo-color{
@@ -182,7 +182,7 @@ ul {
     left: 0;
 }
 
-.header-retreat-raz{
+/* .header-retreat-raz{
     margin-left: 242px;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -190,12 +190,10 @@ ul {
 
 .header-item{
     margin-left: 40px;
-    /* position: relative; */
-}
+    
+} */
 
 .header-info{
-    font-size: 16px;
-    line-height: 1.5;
     color: var(--heder-color-info);    
 }
 
@@ -207,19 +205,19 @@ ul {
 /*hero image*/
 
 .hero-section{
-    max-width: 1440px;
+    
     margin-left: auto;
     margin-right: auto;
     background-color: var(--accent-color-logo-grunt);
-    padding-bottom: 192px;
-    padding-top: 192px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    /* padding-bottom: 192px;
+    padding-top: 192px; */
+     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1440px;
+    /* background-size: 1440px; */
 }
 
-.hero-image{    
+/* .hero-image{    
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
@@ -228,7 +226,7 @@ ul {
     width: 520px;
     margin: 0 auto;
     padding-bottom: 43px;
-}
+} */
 
 .hero-image-btn{    
     font-family: 'Roboto' , sans-serif;

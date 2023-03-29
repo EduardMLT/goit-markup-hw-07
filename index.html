@@ -19,32 +19,47 @@
       integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body class="tmp-brdr">
     <header class="header-section header-line tmp-brdr">
-      <div class="container header-justify">
-        <nav class="tmp-brdr block">
-          <!--переходи по сайту-->
-          <a href="./index.html" class="header-logo">
-            <span class="header-logo-color">Web</span>Studio</a
-          >
+      <div class="container header-flex">
+        <div class="header-justify">
+          <nav class="tmp-brdr block block-modal">
+            <!--переходи по сайту-->
+            <a href="./index.html" class="header-logo">
+              <span class="header-logo-color">Web</span>Studio</a
+            >
 
-          <ul class="header-list list block">
-            <li class="header-item tmp-brdr block">
-              <a href="./index.html" class="header-link link aktive">Studio</a>
-            </li>
-            <li class="header-item tmp-brdr block">
-              <a href="./portfolio.html" class="header-link link">Portfolio</a>
-            </li>
-            <li class="header-item tmp-brdr block">
-              <a href="" class="header-link link">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+            <ul class="header-list list block">
+              <li class="header-item tmp-brdr block">
+                <a href="./index.html" class="header-link link aktive"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-item tmp-brdr block">
+                <a href="./portfolio.html" class="header-link link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-item tmp-brdr block">
+                <a href="" class="header-link link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="modal-menu-button">
+            <svg class="modal-burger-color">
+              <use href="./images/icons-optymisov.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
+
         <address class="header-retreat-raz">
-          <ul class="list link">
+          <ul class="list link header-list-address">
             <li class="header-item tmp-brdr block-inline">
               <a href="mailto:info@devstudio.com" class="header-info link"
                 >info@devstudio.com</a
@@ -65,8 +80,7 @@
 
       <section class="hero-section">
         <div class="container">
-          <h1 class="hero-image">Effective Solutions for Your Business</h1>
-          <!--перехід до реєстрації-->
+          <!-- <h1 class="hero-image">Effective Solutions for Your Business</h1> -->
 
           <button
             type="button"
@@ -78,9 +92,9 @@
         </div>
       </section>
 
-      <section class="hero-advantages-section">
+      <!-- <section class="hero-advantages-section">
         <div class="container">
-          <!--прихований заголовок-->
+          
           <h2 class="visually-hidden">section two</h2>
           <ul class="container list tmp-brdr">
             <li class="li-inline-block li-block-dist">
@@ -133,9 +147,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="wedoing-direction-section tmp-brdr">
+      <!-- <section class="wedoing-direction-section tmp-brdr">
         <div class="container">
           <h2 class="wedoing-direction-text">What are we doing</h2>
           <ul class="list block">
@@ -165,9 +179,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="ourteam-section tmp-brdr">
+      <!-- <section class="ourteam-section tmp-brdr">
         <div class="container">
           <h2 class="ourteam-title">Our Team</h2>
           <ul class="list block">
@@ -344,9 +358,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="customers-section">
+      <!-- <section class="customers-section">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -394,12 +408,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer-grunt">
-      <!--footer-->
-
+    <!-- <footer class="footer-grunt">
+      
       <div class="container">
         <div class="footer-block-block">
           <div class="footer-block">
@@ -474,9 +487,9 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- вставити   в div is-hidden -->
-    <div class="modal-backdrop is-hidden" data-modal>
+    <!-- <div class="modal-backdrop is-hidden" data-modal>
       <div class="modal-modal">
         <div>
           <button type="button" class="modal-close-btn" data-modal-close>
@@ -589,7 +602,7 @@
           </form>
         </div>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
