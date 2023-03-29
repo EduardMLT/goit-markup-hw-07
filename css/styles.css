@@ -79,18 +79,18 @@ ul {
 
 /* відступи і центрування для Li текста*/
 
-.li-inline-block{
+/* .li-inline-block{
     width: 264px;
     display: inline-block; 
-} 
+}  */
 
-.li-block-dist{
+/* .li-block-dist{
     margin-left: 24px;
-}  
+}   */
 
-.li-block-dist:first-child{
+/* .li-block-dist:first-child{
     margin-left: 0;
-}
+} */
 
 /*прибираємо підкреслення і нахил */
 .link{
@@ -211,22 +211,18 @@ ul {
     background-color: var(--accent-color-logo-grunt);
     /* padding-bottom: 192px;
     padding-top: 192px; */
-     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: 1440px; */
 }
 
-/* .hero-image{    
+.hero-image{    
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.1;
     color: var(--main-title-color);
     text-align: center;
-    width: 520px;
     margin: 0 auto;
-    padding-bottom: 43px;
-} */
+    letter-spacing: 0.02em;
+} 
 
 .hero-image-btn{    
     font-family: 'Roboto' , sans-serif;
@@ -257,24 +253,10 @@ ul {
 .hero-advantages-section{
     margin-left: auto;
     margin-right: auto;
-    padding-top: 120px;
-    padding-bottom: 120px;
-     
 }
 
 /*----  діаграма ----*/
 
-.hero-advantages-list{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 8px;
-    background-color: var(--color-footer-social-ikons);
-    border-radius: 4px;
-    padding: 24px 0;
-    color: var(--accent-color-logo-grunt);
-}
 
 .hero-advantages-icon{
     fill: currentColor;

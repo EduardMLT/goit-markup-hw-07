@@ -1,13 +1,8 @@
-.container{
-    /* width: 100%;  
-    padding-left: 16px;
-    padding-right: 16px; */
-} 
 
 @media screen and (min-width: 767px) {
     .container{
         width: 736px;
-        /* background-color: rgb(128, 174, 128); */
+         /* background-color: rgb(128, 174, 128);  */
     }
     .block{
         display: inline-block;
@@ -46,4 +41,44 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/tablet-hero-img-2x.jpg);
         height: 436px;
     }
+}
+
+@media screen and (min-width: 767px){
+    .hero-image{
+        font-size: 56px;
+        line-height: 1.1;
+        width: 520px;
+        padding: 112px 0 40px 0;
+    }
+}
+
+/* hero-advantages */
+
+@media screen and (min-width: 767px) {
+    .hero-advantages-icon{
+        display: none;
+    }
+
+    .hero-advantages-section {
+        padding-top: 96px;
+        padding-bottom: 24px;
+    }
+
+    .li-inline-block{
+        width: 356px;
+        height: 120px;
+        display: inline-block; 
+        margin-bottom: 72px;        
+    } 
+
+    .advantages-block {
+        display: flex;
+        width: 736px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* .li-block-dist:first-child{
+        margin-left: 0;
+    } */
 }

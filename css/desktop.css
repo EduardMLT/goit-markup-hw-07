@@ -1,13 +1,8 @@
-.container{
-    /* width: 100%;  
-    padding-left: 16px;
-    padding-right: 16px; */
-} 
 
 @media screen and (min-width: 1200px) {
     .container{
         width: 1160px;
-        /* background-color: rgb(138, 138, 181); */
+        /* background-color: rgb(138, 138, 181);  */
     }
 }
 
@@ -42,5 +37,58 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
     .hero-section{
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/desktop-hero-img-2x.jpg);
         height: 600px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-image{
+        font-size: 56px;
+        line-height: 1.1;
+        width: 520px;
+        padding: 188px 0 48px 0;
+    }
+}
+
+/* hero-advantages */
+
+@media screen and (min-width: 1200px) {
+    .hero-advantages-icon{
+        display: flex;
+    }
+
+    .hero-advantages-list{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        background-color: var(--color-footer-social-ikons);
+        border-radius: 4px;
+        padding: 24px 0;
+        color: var(--accent-color-logo-grunt);
+    }
+
+    .hero-advantages-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+     .li-inline-block{
+        width: 264px;        
+    } 
+
+    /*.li-block-dist{
+        margin-left: 24px;
+    }  
+    
+    .li-block-dist:first-child{
+        margin-left: 0;
+    }  */
+
+    .advantages-block {
+        display: flex;
+        width: 1128px;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
