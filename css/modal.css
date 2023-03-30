@@ -109,3 +109,39 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
     } 
     
 }
+
+
+/* wedoing-direction - Що ми робимо-напрямок */
+
+@media screen and (max-width: 767px) {
+
+    .wedoing-direction-section{
+        display: none;
+    }
+}
+
+/* ourteam-section наша команда*/
+
+@media screen and (max-width: 767px) {
+     .block {
+          display: block;
+     } 
+     
+     .ourteam-item-grunt {
+        margin-bottom: 72px;
+        margin-left: 82px;
+        margin-right: 82px;
+     }
+
+     .ourteam-social-list {
+        margin-left: 14px;
+        margin-right: 14px;
+     }
+
+     .ourteam-social-list{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+
+}

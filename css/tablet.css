@@ -82,3 +82,14 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
         margin-left: 0;
     } */
 }
+
+/* wedoing-direction - Що ми робимо-напрямок */
+
+@media screen and (min-width: 768px) {
+
+    .wedoing-direction-section{
+        display: none;
+    }
+}
+
+/* ourteam-section наша команда*/

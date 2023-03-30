@@ -92,3 +92,30 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
         justify-content: space-between;
     }
 }
+
+/* wedoing-direction - Що ми робимо-напрямок */
+
+@media screen and (min-width: 1200px) {
+    .wedoing-direction-section {
+        padding-bottom: 120px;
+        display: flex;
+    }
+    
+    .wedoing-direction-text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--accent-color-logo-grunt); 
+        text-align: center; 
+        margin-bottom: 72px; 
+    }
+
+    .block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* ourteam-section наша команда*/

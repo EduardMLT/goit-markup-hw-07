@@ -208,7 +208,7 @@ ul {
     
     margin-left: auto;
     margin-right: auto;
-    background-color: var(--accent-color-logo-grunt);
+    /* background-color: var(--accent-color-logo-grunt); */
     /* padding-bottom: 192px;
     padding-top: 192px; */
     background-repeat: no-repeat;
@@ -277,7 +277,7 @@ ul {
 }
 
 /*Що ми робимо-напрямок*/
-.wedoing-direction-section{
+/* .wedoing-direction-section{
     padding-bottom: 120px;
 }
 
@@ -289,7 +289,7 @@ ul {
     color: var(--accent-color-logo-grunt); 
     text-align: center; 
     margin-bottom: 72px; 
-}
+} */
 
 /*наша команда*/
 .ourteam-section{
@@ -332,12 +332,12 @@ ul {
     text-align: center;
 }
 
-.ourteam-social-list{
+/* .ourteam-social-list{
     display: flex;
     gap: 24px;
     justify-content: center;
     margin-top: 8px;
-}
+} */
 
 .ourteam-social-item{
     width: 40px;
