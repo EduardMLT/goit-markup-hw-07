@@ -119,3 +119,20 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
 }
 
 /* ourteam-section наша команда*/
+
+@media screen and (min-width: 1200px) {
+    .ourteam-section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    } 
+
+    .ourteam-social-list{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        margin-top: 8px;
+    }
+}
+
+/*---- наші замовники ----*/
+

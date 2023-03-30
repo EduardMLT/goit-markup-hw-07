@@ -93,3 +93,37 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 }
 
 /* ourteam-section наша команда*/
+
+@media screen and (min-width: 768px) {
+    .ourteam-section{
+        padding-top: 96px;
+        padding-bottom: 104px;
+    } 
+
+    .ourteam-block {
+         display: flex;  
+        flex-wrap: wrap;
+        gap: 64px 24px;
+        justify-content: center;
+    } 
+    
+    /* .ourteam-item-grunt {
+       margin-bottom: 72px;
+       margin-left: 82px;
+       margin-right: 82px;
+    } */
+
+    .ourteam-social-list {
+       margin-left: 14px;
+       margin-right: 14px;
+    }
+
+    .ourteam-social-list{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 8px;
+   }
+}
+
+/*---- наші замовники ----*/
+

@@ -293,8 +293,6 @@ ul {
 
 /*наша команда*/
 .ourteam-section{
-    padding-top: 120px;
-    padding-bottom: 110px;
     background-color: var(--accent-color-logo);
 } 
 

@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 480px) {
     .container{
-        width: 428px;
+        width: 458px;
         margin-left: auto;
         margin-right: auto;        
     }    
@@ -123,8 +123,14 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 /* ourteam-section наша команда*/
 
 @media screen and (max-width: 767px) {
-     .block {
+    .ourteam-section{
+        padding-top: 96px;
+        padding-bottom: 128px;
+    } 
+
+     .ourteam-block {
           display: block;
+          margin-bottom: 128px;
      } 
      
      .ourteam-item-grunt {
@@ -143,5 +149,7 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         justify-content: space-between;
         margin-top: 8px;
     }
-
 }
+
+/*---- наші замовники ----*/
+
