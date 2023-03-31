@@ -94,7 +94,7 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 
 /* ourteam-section наша команда*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .ourteam-section{
         padding-top: 96px;
         padding-bottom: 104px;
@@ -127,3 +127,47 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 
 /*---- наші замовники ----*/
 
+@media screen and (min-width: 767px) {
+    .customers-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .customers-list{
+        gap: 72px 24px;
+    }
+}
+
+/*----- footer -----*/
+
+@media screen and (min-width: 767px) {
+    .footer-block-block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-left: 78px;
+    }
+
+    .footer-block{        
+        width: 264px;        
+        margin-bottom: 72px;
+    } 
+
+    .footer-block-social{        
+        width: 208px;
+    }
+
+    .footer-block-text {
+        margin-bottom: 16px;        
+    }
+
+    .footer-subscribe-grop{
+        position: relative;
+     }
+    
+    .footer-subscribe-btn {
+        position: absolute;
+        top: -40px;
+        right: -175px;
+    } 
+}

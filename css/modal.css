@@ -153,3 +153,103 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 
 /*---- наші замовники ----*/
 
+@media screen and (max-width: 767px) {
+    .customers-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .customers-list{
+        gap: 72px 16px;
+    }
+}
+
+     /*----- footer -----*/
+
+@media screen and (max-width: 767px) {
+    .footer-block-block{
+        display: block;
+    }
+
+    .footer-block{
+        width: 268px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    } 
+
+    .footer-block-social{
+        width: 268px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+    }
+
+    .footer-block-social-title{
+        text-align: center;    
+    }
+
+    .footer-logo{
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+         /* subscribe */
+
+    .footer-subscribe{
+        /* width: 396px; */
+        height: 136px;
+        margin-bottom: 96px;
+    }
+
+    .footer-subscribe-contact-form{
+        /* width: 453px; */
+        height: 80px;
+        margin-right: 0;
+    }
+
+ /* .footer-block-inline {
+        display: inline-block;
+    }    */
+
+    .footer-subscribe-label{
+        display: block;
+    }
+
+   
+
+    .footer-block-text {
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    .footer-subscribe-label-text {
+        text-align: center;
+    }   
+    
+    .footer-subscribe-form-control{
+        position: relative;
+    }
+
+    .footer-subscribe-form-input{
+        position: absolute;
+        right: 20%;
+    }
+
+    .footer-subscribe-grop{
+        position: relative;
+     }
+    
+    .footer-subscribe-btn {
+        position: absolute;
+        top: 60px;
+        right: 120px;
+    } 
+
+   
+}
+
+
+

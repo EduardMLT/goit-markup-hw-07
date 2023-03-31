@@ -136,3 +136,39 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
 
 /*---- наші замовники ----*/
 
+@media screen and (min-width: 1200px) {
+    .customers-section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list{
+        gap: 24px;
+    }
+}
+
+/*----- footer -----*/
+
+@media screen and (min-width: 1200px) {
+    .footer-block{        
+        width: 264px; 
+        margin-bottom: 0;       
+        
+    } 
+
+    .footer-block-block{
+        margin-left: 22px;
+    }
+
+    .footer-block-social{        
+        margin-left: 80px;
+        margin-bottom: 0;
+
+    }
+
+    .footer-subscribe{
+        margin-left: 52px;
+        margin-bottom: 0px;
+    }
+}
+

@@ -367,14 +367,9 @@ ul {
 
 /*---- наші замовники ----*/
 
-.customers-section{
-    padding-top: 130px;
-    padding-bottom: 120px;
-}
-
 .customers-list{
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -432,14 +427,14 @@ ul {
     padding-bottom: 120px;
 }
 
-.footer-block-block{
+/* .footer-block-block{
     display: flex;
-}
+} */
 
-.footer-block{
+/* .footer-block{
     width: 264px;
     display: inline-block;
-}  
+}   */
 
 .footer-logo-color{
     color: var(--accent-color-logo);
@@ -457,11 +452,11 @@ ul {
     color: var(--footer-text-color);
 }
 
-.footer-block-social{
+/* .footer-block-social{
     display: inline-block;
     margin-left: 120px;
     margin-right: 80px;
-}
+} */
 
 .footer-block-social-title{
     font-weight: 500;
@@ -512,13 +507,15 @@ ul {
 
 /* ----- subscribe -----*/
 
-.footer-subscribe{}
 
-.footer-subscribe-contact-form{
-    width: 453px;
-    height: 80px;
+
+.footer-subscribe-label-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;   
 }
-
 
 .footer-subscribe-form-input{
     min-width: 264px;
@@ -526,9 +523,9 @@ ul {
     padding: 0 0 0 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    position: absolute;
-    bottom: -58px;
-    left: 0;
+    /* position: absolute; */
+    /* bottom: -58px;
+    left: 0; */
     background-color: #2E2F42;
     font-size: 12px;
     line-height: 2;
@@ -542,25 +539,7 @@ ul {
     outline: none;
 }
 
-.footer-subscribe-label{
-    display: block;
-}
 
-.footer-subscribe-label-text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;   
-}
-
-.footer-subscribe-form-control{
-    position: relative;
-}
-
-.footer-subscribe-grop{
-    margin-left: 24px;
-}
 
 .footer-subscribe-btn{    
     font-family: 'Roboto' , sans-serif;
@@ -576,9 +555,7 @@ ul {
     border-radius: 4px;
     border: 1px solid var(--color-tmp-brdr);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    position: absolute;
-    right: 0;
-    bottom: -58px;
+    
 }
 
 
