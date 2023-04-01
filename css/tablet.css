@@ -136,6 +136,16 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
     .customers-list{
         gap: 72px 24px;
     }
+
+    .customers-link{
+        width: 168px;
+        height: 88px;
+    }
+
+    .customers-icon{
+        width: 104px;
+        height: 56px;
+    }
 }
 
 /*----- footer -----*/
@@ -201,5 +211,15 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 /* фото наших робіт CARDS */
 
 @media screen and (min-width: 767px) {
+
+}
+
+/* modal wind */
+
+@media screen and (min-width: 767px) {
+    .modal-modal{
+        width: 408px;
+        height: 586px;
+    }
 
 }
