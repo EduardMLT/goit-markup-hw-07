@@ -37,12 +37,10 @@
 
             <ul class="header-list list block">
               <li class="header-item tmp-brdr block">
-                <a href="./index.html" class="header-link link aktive"
-                  >Studio</a
-                >
+                <a href="./index.html" class="header-link link">Studio</a>
               </li>
               <li class="header-item tmp-brdr block">
-                <a href="./portfolio.html" class="header-link link"
+                <a href="./portfolio.html" class="header-link link aktive"
                   >Portfolio</a
                 >
               </li>
@@ -76,13 +74,13 @@
     </header>
 
     <main>
-      <section class="backdown-to-footer-prtf">
+      <section class="backdown-to-prtf">
         <div class="container">
           <!--прихований заголовок-->
           <h1 class="visually-hidden">Portfolio</h1>
           <!-- список - набір радіо-кнопок-->
 
-          <!-- <ul class="prtf-filtr list tmp-brdr prtf-block">
+          <ul class="prtf-filtr list tmp-brdr prtf-block">
             <li class="prtf-block-dis">
               <button type="button" class="prtf-button-grunt">All</button>
             </li>
@@ -98,20 +96,43 @@
             <li class="prtf-block-dist">
               <button type="button" class="prtf-button-grunt">Marketing</button>
             </li>
-          </ul> -->
+          </ul>
 
           <!--фото наших робіт CARDS-->
 
-          <!-- <ul class="list cards-block">
+          <ul class="list cards-block">
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img                  
-                    src="./images/project1-1.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-banking.jpg    1x,
+                        ./images/desktop-banking@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-banking.jpg    1x,
+                        ./images/tablet-banking@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-banking.jpg    1x,
+                        ./images/mobile-banking@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project1-1.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -128,12 +149,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project1-2.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-cashless.jpg    1x,
+                        ./images/desktop-cashless@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-cashless.jpg    1x,
+                        ./images/tablet-cashless@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-cashless.jpg    1x,
+                        ./images/mobile-cashless@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project1-2.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -150,12 +194,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project1-3.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-meditaion.jpg    1x,
+                        ./images/desktop-meditaion@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-meditaion.jpg    1x,
+                        ./images/tablet-meditaion@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-meditaion.jpg    1x,
+                        ./images/mobile-meditaion@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project1-3.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -172,12 +239,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project2-1.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-taxi.jpg    1x,
+                        ./images/desktop-taxi@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-taxi.jpg    1x,
+                        ./images/tablet-taxi@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-taxi.jpg    1x,
+                        ./images/mobile-taxi@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project2-1.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -194,12 +284,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project2-2.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-screen.jpg    1x,
+                        ./images/desktop-screen@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-screen.jpg    1x,
+                        ./images/tablet-screen@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-screen.jpg    1x,
+                        ./images/mobile-screen@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project2-2.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -216,12 +329,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project2-3.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-courses.jpg    1x,
+                        ./images/desktop-courses@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-courses.jpg    1x,
+                        ./images/tablet-courses@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-courses.jpg    1x,
+                        ./images/mobile-courses@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project2-3.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -238,12 +374,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project3-1.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-stories.jpg    1x,
+                        ./images/desktop-stories@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-stories.jpg    1x,
+                        ./images/tablet-stories@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-stories.jpg    1x,
+                        ./images/mobile-stories@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project3-1.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -260,12 +419,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project3-2.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-food.jpg    1x,
+                        ./images/desktop-food@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-food.jpg    1x,
+                        ./images/tablet-food@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-food.jpg    1x,
+                        ./images/mobile-food@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project3-2.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -282,12 +464,35 @@
             <li class="card-list-item">
               <a href="" class="link card">
                 <div class="card-list-wrapper">
-                  <img
-                    src="./images/project3-3.jpg"
-                    alt="щось"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/desktop-coffee.jpg    1x,
+                        ./images/desktop-coffee@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 767px)"
+                      srcset="
+                        ./images/tablet-coffee.jpg    1x,
+                        ./images/tablet-coffee@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/mobile-coffee.jpg    1x,
+                        ./images/mobile-coffee@2x.jpg 2x
+                      "
+                    />
+                    <img
+                      src="./images/project3-3.jpg"
+                      alt="щось"
+                      width="360"
+                      height="300"
+                    />
+                  </picture>
                   <p class="card-overlay">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -300,19 +505,21 @@
                 </div>
               </a>
             </li>
-          </ul> -->
+          </ul>
         </div>
       </section>
     </main>
 
     <footer class="footer-grunt">
-      
-      <!-- <div class="container">
+      <div class="container">
         <div class="footer-block-block">
           <div class="footer-block">
-            <a href="./portfolio.html" class="footer-logo-color">
-              <span class="header-logo-color">Web</span>Studio
-            </a>
+            <div class="footer-logo">
+              <a href="./portfolio.html" class="footer-logo-color">
+                <span class="header-logo-color">Web</span>Studio
+              </a>
+            </div>
+
             <p class="footer-text-color">
               Increase the flow of customers and sales for your business with
               digital marketing & growth solutions.
@@ -323,62 +530,74 @@
             <ul class="footer-social-list list">
               <li class="footer-social-item">
                 <a href="" class="footer-social-link link">
-                  <svg class="footer-social-icon" width="24" height="24">
+                  <svg class="footer-social-icon">
                     <use href="./images/icons.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a href="" class="footer-social-link link">
-                  <svg class="footer-social-icon" width="24" height="24">
+                  <svg class="footer-social-icon">
                     <use href="./images/icons.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a href="" class="footer-social-link link">
-                  <svg class="footer-social-icon" width="24" height="24">
+                  <svg class="footer-social-icon">
                     <use href="./images/icons.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="footer-social-item">
                 <a href="" class="footer-social-link link">
-                  <svg class="footer-social-icon" width="24" height="24">
+                  <svg class="footer-social-icon">
                     <use href="./images/icons.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
-          </div> -->
+          </div>
 
-          <!-- <div class="footer-subscribe">
+          <div class="footer-subscribe">
             <form class="footer-subscribe-contact-form">
-              <div>
+              <div class="footer-block-inline">
                 <label for="email-foot" class="footer-subscribe-label">
-                  <span class="footer-subscribe-label-text">Subscribe</span>
+                  <div class="footer-block-text">
+                    <span class="footer-subscribe-label-text">Subscribe</span>
+                  </div>
+
                   <div class="footer-subscribe-form-control">
                     <input
                       type="email"
                       class="footer-subscribe-form-input"
                       placeholder="E-mail"
                       name="email"
-                      id="email-foot"                      
+                      id="email-foot"
                     />
-                  </label>
-                  <div class="footer-subscribe-grop">
-                    <button type="submit" class="footer-subscribe-btn footer-subscribe-button">
-                      <p class="footer-subscribe-text-btn">Subscribe</p>
-                      <svg class="footer-subscribe-btn-icon" width="24" height="24">
-                        <use
-                          href="./images/icons-optymisov.svg#icon-subscribe"
-                        ></use>
-                      </svg>
-                    </button>
                   </div>
+                </label>
+
+                <div class="footer-subscribe-grop">
+                  <button
+                    type="submit"
+                    class="footer-subscribe-btn footer-subscribe-button"
+                  >
+                    <p class="footer-subscribe-text-btn">Subscribe</p>
+                    <svg
+                      class="footer-subscribe-btn-icon"
+                      width="24"
+                      height="24"
+                    >
+                      <use
+                        href="./images/icons-optymisov.svg#icon-subscribe"
+                      ></use>
+                    </svg>
+                  </button>
+                </div>
               </div>
             </form>
-          </div> -->
+          </div>
         </div>
       </div>
     </footer>

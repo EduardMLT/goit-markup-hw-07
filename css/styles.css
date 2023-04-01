@@ -180,18 +180,8 @@ ul {
     position: absolute;
     bottom: -27px;
     left: 0;
-}
+} 
 
-/* .header-retreat-raz{
-    margin-left: 242px;
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.header-item{
-    margin-left: 40px;
-    
-} */
 
 .header-info{
     color: var(--heder-color-info);    
@@ -416,16 +406,16 @@ ul {
 
 
 /*footer*/
-.footer-grunt{    
+/* .footer-grunt{    
     background: var(--accent-color-logo-grunt);
     padding-top: 100px;
     padding-bottom: 100px;
-}
+} */
 
-.backdown-to-footer-prtf{
+/* .backdown-to-footer-prtf{
     padding-top: 96px;
     padding-bottom: 120px;
-}
+} */
 
 /* .footer-block-block{
     display: flex;
@@ -588,28 +578,8 @@ ul {
 
 /*------ portfolio -----*/
 
-        /* ----  button  ---- */
-.prtf-filtr{
-    margin-bottom: 72px;
-    justify-content: center;
-}
-
-.prtf-block{
-    display: flex;
-}
-
-.prtf-block-dist{
-    margin-left: 24px;
-} 
-
-.prtf-block-dist:first-child{
-    margin-left: 0;
-}
-
-
 .prtf-button-grunt{
     font-family: 'Roboto' , sans-serif;
-    padding: 12px 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

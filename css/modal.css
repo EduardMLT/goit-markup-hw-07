@@ -13,12 +13,11 @@
     }    
 }
 
-
-
 @media screen and (min-width: 767px) {
     .modal-menu-button{
         display: none;
     }
+
     .header-section{
         padding-top: 16px;
         padding-bottom: 16px;        
@@ -167,6 +166,13 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
      /*----- footer -----*/
 
 @media screen and (max-width: 767px) {
+
+    .footer-grunt{    
+        background: var(--accent-color-logo-grunt);
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
     .footer-block-block{
         display: block;
     }
@@ -246,10 +252,36 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         position: absolute;
         top: 60px;
         right: 120px;
-    } 
-
-   
+    }    
 }
 
+/*------ portfolio -----*/
+
+@media screen and (max-width: 767px) {
+    .prtf-filtr{
+        justify-content: space-between;
+        display: flex;
+        row-gap: 16px;
+        flex-wrap: wrap;
+        width: 263px;
+        height: 96px;
+        margin-bottom: 48px;  
+    }
+
+    .prtf-button-grunt{
+        padding: 8px 16px;
+    }
+
+    .backdown-to-prtf{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+
+/* фото наших робіт CARDS */
+
+@media screen and (max-width: 767px) {
+
+}
 
 

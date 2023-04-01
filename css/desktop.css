@@ -150,6 +150,13 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
 /*----- footer -----*/
 
 @media screen and (min-width: 1200px) {
+
+    .footer-grunt{    
+        background: var(--accent-color-logo-grunt);
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .footer-block{        
         width: 264px; 
         margin-bottom: 0;       
@@ -171,4 +178,33 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
         margin-bottom: 0px;
     }
 }
+
+/*------ portfolio -----*/
+
+@media screen and (min-width: 1200px) {
+    .prtf-filtr{
+        justify-content: center;
+        display: flex;
+        gap: 24px;   
+        margin-bottom: 72px;     
+    }
+
+    .prtf-button-grunt{
+        padding: 12px 24px;
+    }
+
+    .backdown-to-prtf{
+        padding-top: 96px;
+        padding-bottom: 72px;
+    }
+}
+
+/* фото наших робіт CARDS */
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
 
