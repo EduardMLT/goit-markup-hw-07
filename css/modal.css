@@ -143,8 +143,8 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
      
      .ourteam-item-grunt {
         margin-bottom: 72px;
-        margin-left: 82px;
-        margin-right: 82px;
+        margin-left: auto;
+        margin-right: auto;
      }
 
      .ourteam-social-list {
@@ -154,7 +154,7 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 
      .ourteam-social-list{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin-top: 8px;
     }
 }
@@ -242,22 +242,18 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 
     .footer-subscribe-label{
         display: block;
-    }
-
-   
-
-    .footer-block-text {
         margin-bottom: 16px;
         text-align: center;
-    }
-
-    .footer-subscribe-label-text {
-        text-align: center;
-    }   
-    
-    .footer-subscribe-form-control{
         position: relative;
     }
+
+    .footer-subscribe-label-text{
+        text-align: center;         
+    }
+     
+    /* .footer-subscribe-form-control{
+        position: relative;
+    } */
 
     .footer-subscribe-form-input{
         position: absolute;

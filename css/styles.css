@@ -496,6 +496,8 @@ ul {
 
 
 .footer-subscribe-label-text{
+    display: block;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -763,6 +765,7 @@ ul {
 
 .modal-label{
     display: block;
+    position: relative;
 }
 
 .modal-label-text{
@@ -772,9 +775,9 @@ ul {
     color: #8E8F99;    
 }
 
-.modal-form-control{
+/* .modal-form-control{
     position: relative;
-}
+} */
 
 .modal-contact-form-input{
     width: 100%;
@@ -802,7 +805,7 @@ ul {
     height: 24px;   
     position: absolute;   
     left: 10px;
-    top: 42%;
+    top: 58%;
     transform: translateY(-50%);
 }
 

@@ -173,10 +173,6 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
         width: 208px;
     }
 
-    .footer-block-text {
-        margin-bottom: 16px;        
-    }
-
     .footer-subscribe-grop{
         position: relative;
      }
