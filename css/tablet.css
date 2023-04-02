@@ -219,3 +219,10 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
     }
 
 }
+
+
+.mobile-menu {
+    display: none;
+    
+}
+

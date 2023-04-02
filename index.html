@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/tablet.css" />
     <link rel="stylesheet" href="./css/desktop.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
   </head>
 
   <body class="tmp-brdr">
@@ -51,7 +52,7 @@
               </li>
             </ul>
           </nav>
-          <button type="button" class="modal-menu-button">
+          <button type="button" class="modal-menu-button js-open-menu">
             <svg class="modal-burger-color">
               <use href="./images/icons-optymisov.svg#icon-burger"></use>
             </svg>
@@ -72,6 +73,79 @@
             </li>
           </ul>
         </address>
+      </div>
+
+      <!-- мобільне меню , стилі -  mobile.css -->
+
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use
+                href="./images/icons-optymisov.svg#icon-close-black-18dp"
+              ></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-menu">
+            <li class="mobile-menu-link">
+              <a href="./index.html" class="mobile-menu-text">Studio</a>
+            </li>
+            <li class="mobile-menu-link">
+              <a href="./portfolio.html" class="mobile-menu-text">Portfolio</a>
+            </li>
+            <li class="mobile-menu-link">
+              <a href="" class="mobile-menu-text">Contacts</a>
+            </li>
+          </ul>
+          <address class="">
+            <ul class="mobile-menu-address">
+              <li class="mobile-menu-address-link">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="link mobile-menu-text-address"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-menu-address-link">
+                <a
+                  href="tel:+110001111111"
+                  class="link mobile-menu-text-address"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-menu-social-list list">
+            <li class="ourteam-social-item">
+              <a href="" class="ourteam-social-link link">
+                <svg class="ourteam-social-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ourteam-social-item">
+              <a href="" class="ourteam-social-link link">
+                <svg class="ourteam-social-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ourteam-social-item">
+              <a href="" class="ourteam-social-link link">
+                <svg class="ourteam-social-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="ourteam-social-item">
+              <a href="" class="ourteam-social-link link">
+                <svg class="ourteam-social-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
