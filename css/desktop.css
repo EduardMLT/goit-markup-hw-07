@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 1200px) {
     .container{
-        width: 1160px;
+        max-width: 1160px;
         /* background-color: rgb(138, 138, 181);  */
     }
 }
@@ -54,6 +54,17 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
 @media screen and (min-width: 1200px) {
     .hero-advantages-icon{
         display: flex;
+    }
+
+    .hero-advantages-direction{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    .hero-advantages-text{
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     .hero-advantages-list{

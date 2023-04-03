@@ -88,13 +88,15 @@
           </button>
           <ul class="mobile-menu-menu">
             <li class="mobile-menu-link">
-              <a href="./index.html" class="mobile-menu-text">Studio</a>
+              <a href="./index.html" class="mobile-menu-text link">Studio</a>
             </li>
             <li class="mobile-menu-link">
-              <a href="./portfolio.html" class="mobile-menu-text">Portfolio</a>
+              <a href="./portfolio.html" class="mobile-menu-text link"
+                >Portfolio</a
+              >
             </li>
             <li class="mobile-menu-link">
-              <a href="" class="mobile-menu-text">Contacts</a>
+              <a href="" class="mobile-menu-text link">Contacts</a>
             </li>
           </ul>
           <address class="">
@@ -590,39 +592,51 @@
             </ul>
           </div>
 
-          <div class="footer-subscribe">
+          <!-- <div class="footer-subscribe">
+            <span class="footer-subscribe-label-text">Subscribe</span>
             <form class="footer-subscribe-contact-form">
-              <div class="footer-block-inline">
-                <label for="email-foot" class="footer-subscribe-label">
-                  <span class="footer-subscribe-label-text">Subscribe</span>
+              <label for="email-foot class="footer-subscribe-label"">
+                <input
+                  type="email"
+                  class="footer-subscribe-form-input"
+                  placeholder="E-mail"
+                  name="email"
+                  id="email-foot"
+                />
+              </label>
 
-                  <input
-                    type="email"
-                    class="footer-subscribe-form-input"
-                    placeholder="E-mail"
-                    name="email"
-                    id="email-foot"
-                  />
-                </label>
-
-                <div class="footer-subscribe-grop">
-                  <button
-                    type="submit"
-                    class="footer-subscribe-btn footer-subscribe-button"
-                  >
-                    <span class="footer-subscribe-text-btn">Subscribe</span>
-                    <svg
-                      class="footer-subscribe-btn-icon"
-                      width="24"
-                      height="24"
-                    >
-                      <use
-                        href="./images/icons-optymisov.svg#icon-subscribe"
-                      ></use>
-                    </svg>
-                  </button>
-                </div>
-              </div>
+              <button
+                type="submit"
+                class="footer-subscribe-btn footer-subscribe-button"
+              >
+                <span class="footer-subscribe-text-btn">Subscribe</span>
+                <svg class="footer-subscribe-btn-icon" width="24" height="24">
+                  <use href="./images/icons-optymisov.svg#icon-subscribe"></use>
+                </svg>
+              </button>
+            </form> -->
+          <div class="footer-form-container">
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-form">
+              <label>
+                <input
+                  type="email"
+                  name="user-email"
+                  class="footer-modal-form-input"
+                  required
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="footer-modal-form-submit">
+                <span class="footer-modal-form-submit-text">Subscribe</span>
+                <svg
+                  class="footer-modal-form-submit-icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./images/icons-optymisov.svg#icon-subscribe"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>

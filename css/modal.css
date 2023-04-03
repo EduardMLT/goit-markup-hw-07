@@ -1,13 +1,6 @@
-.container{
-    width: 100%;  
-    padding-left: 16px;
-    padding-right: 16px;
-    /* background-color: rgb(176, 205, 205);  */
-} 
-
 @media screen and (min-width: 480px) {
     .container{
-        width: 458px;
+        max-width: 458px;
         margin-left: auto;
         margin-right: auto;        
     }    
@@ -98,6 +91,18 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
     .hero-advantages-icon{
         display: none;
     } 
+
+    .hero-advantages-direction{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    }
+    
+    .hero-advantages-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    }
         
     .hero-advantages-section {
         padding-top: 96px;
@@ -133,12 +138,11 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 @media screen and (max-width: 767px) {
     .ourteam-section{
         padding-top: 96px;
-        padding-bottom: 128px;
+        padding-bottom: 56px;
     } 
 
      .ourteam-block {
           display: block;
-          margin-bottom: 128px;
      } 
      
      .ourteam-item-grunt {
@@ -190,7 +194,7 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
     .footer-grunt{    
         background: var(--accent-color-logo-grunt);
         padding-top: 96px;
-        padding-bottom: 4px;
+        padding-bottom: 96px;
     }
 
     .footer-block-block{
@@ -198,7 +202,7 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
     }
 
     .footer-block{
-        width: 268px;
+        max-width: 268px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -224,21 +228,15 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
 
          /* subscribe */
 
-    .footer-subscribe{
-        /* width: 396px; */
+    /* .footer-subscribe{
         height: 136px;
-        margin-bottom: 96px;
     }
 
     .footer-subscribe-contact-form{
-        /* width: 453px; */
+        max-width: 453px;
         height: 80px;
         margin-right: 0;
     }
-
- /* .footer-block-inline {
-        display: inline-block;
-    }    */
 
     .footer-subscribe-label{
         display: block;
@@ -251,15 +249,6 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         text-align: center;         
     }
      
-    /* .footer-subscribe-form-control{
-        position: relative;
-    } */
-
-    .footer-subscribe-form-input{
-        position: absolute;
-        right: 20%;
-    }
-
     .footer-subscribe-grop{
         position: relative;
      }
@@ -268,7 +257,66 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         position: absolute;
         top: 60px;
         right: 120px;
-    }    
+    }    */
+    
+    .footer-form-text {
+        text-align: center;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 16px;
+      }
+      .footer-modal-form-input {
+        /* display: block; */
+        color: #ffffff;
+        background-color: inherit;
+        width: 100%;
+        margin-bottom: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+        padding: 9px 16px;
+        transition: border-color var(--transition-dur-and-func);
+      }
+      .footer-modal-form-input::placeholder {
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: rgba(255, 255, 255, 0.6);
+      }
+      .footer-modal-form-input:focus {
+        outline: none;
+        border-color: #4d5ae5;
+      }
+      .footer-modal-form-submit {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 169px;
+        align-self: center;
+        padding: 8px 24px;
+        background-color: #4d5ae5;
+        border: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        transition: background-color var(--transition-dur-and-func);
+      }
+      .footer-modal-form-submit:hover,
+      .footer-modal-form-submit:focus {
+        background-color: var(--link-hover-color);
+        cursor: pointer;
+      }
+      .footer-modal-form-submit-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.15;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        margin-right: 16px;
+      }
+      .footer-modal-form-submit-icon {
+        fill: #ffffff;
+      }
+
 }
 
 /*------ portfolio -----*/

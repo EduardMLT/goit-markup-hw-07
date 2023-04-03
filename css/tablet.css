@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 767px) {
     .container{
-        width: 766px;
+        max-width: 768px;
          /* background-color: rgb(128, 174, 128);  */
     }
     .block{
@@ -57,6 +57,18 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 @media screen and (min-width: 767px) {
     .hero-advantages-icon{
         display: none;
+    }
+
+    .hero-advantages-direction{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    }
+    
+    .hero-advantages-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
     }
 
     .hero-advantages-section {
@@ -182,6 +194,32 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
         top: -40px;
         right: -175px;
     } 
+
+.footer-form-text {
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.footer-modal-form-input {
+    width: 264px;
+    margin-bottom: 0;  
+}
+
+    
+
+
 }
 
 /*------ portfolio -----*/
