@@ -227,44 +227,14 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
     }
 
          /* subscribe */
-
-    /* .footer-subscribe{
-        height: 136px;
-    }
-
-    .footer-subscribe-contact-form{
-        max-width: 453px;
-        height: 80px;
-        margin-right: 0;
-    }
-
-    .footer-subscribe-label{
-        display: block;
-        margin-bottom: 16px;
-        text-align: center;
-        position: relative;
-    }
-
-    .footer-subscribe-label-text{
-        text-align: center;         
-    }
-     
-    .footer-subscribe-grop{
-        position: relative;
-     }
-    
-    .footer-subscribe-btn {
-        position: absolute;
-        top: 60px;
-        right: 120px;
-    }    */
-    
+       
     .footer-form-text {
         text-align: center;
         font-weight: 500;
         color: #ffffff;
         margin-bottom: 16px;
       }
+
       .footer-modal-form-input {
         /* display: block; */
         color: #ffffff;
@@ -274,18 +244,21 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 4px;
         padding: 9px 16px;
-        transition: border-color var(--transition-dur-and-func);
+        transition: border-color var(--semofor-button-grunt);
       }
+
       .footer-modal-form-input::placeholder {
         font-size: 12px;
         line-height: 2;
         letter-spacing: 0.04em;
         color: rgba(255, 255, 255, 0.6);
       }
+
       .footer-modal-form-input:focus {
         outline: none;
         border-color: #4d5ae5;
       }
+
       .footer-modal-form-submit {
         margin: 0 auto;
         display: flex;
@@ -298,13 +271,15 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         border: none;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
-        transition: background-color var(--transition-dur-and-func);
+        transition: background-color var(--semofor-button-grunt);
       }
+
       .footer-modal-form-submit:hover,
       .footer-modal-form-submit:focus {
-        background-color: var(--link-hover-color);
+        background-color: var(--color-button-link);
         cursor: pointer;
       }
+
       .footer-modal-form-submit-text {
         font-weight: 500;
         font-size: 16px;
@@ -313,6 +288,7 @@ screen and (min-resolution: 2dppx) and  (max-width: 767px)
         color: #ffffff;
         margin-right: 16px;
       }
+      
       .footer-modal-form-submit-icon {
         fill: #ffffff;
       }

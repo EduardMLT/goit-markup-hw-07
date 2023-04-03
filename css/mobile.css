@@ -1,4 +1,7 @@
 /* мобільне меню */
+:root{
+    --semofor-button-grunt: 300ms cubic-bezier(1, 0.04, 1, 1);
+}
 
 
 
@@ -14,7 +17,7 @@
     
     .mobile-menu {
         display: flex;
-        max-width: 460px;
+        /* max-width: 460px; */
         width: 100%;
         height: 100%;
         /* border: 1px solid tomato; */
@@ -61,8 +64,8 @@
     
     .mobile-menu-address {
         display: flex;
-        width: 337px;
-        height: 104px;
+        /* width: 337px;
+        height: 104px; */
         margin-bottom: 48px;
         margin-left: 40px;
         flex-direction: column-reverse;
@@ -81,6 +84,7 @@
         margin-right: 60px;
         justify-content: space-between;
         margin-bottom: 40px;
+        flex-wrap: wrap;
     }
     
     /* .ourteam-social-item {
@@ -129,8 +133,15 @@
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        color: #434455;
+        transition: var(--semofor-button-grunt);
     }
+
+    .mobile-menu-text:hover,.mobile-menu-text:focus {
+        color: #404BBF;
+    }
+
+
 
     .mobile-menu-text-address {
         font-weight: 500;
@@ -138,9 +149,22 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #434455;
-    }
-    
-    
+    } 
 
+    .mobile-menu-text-tel {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #434455;
+    }
 }
+
+/* @media screen and (max-width: 427px) {
+    .mobile-menu-text-tel {
+      font-size: 25px;
+    }
+  } */
+
 

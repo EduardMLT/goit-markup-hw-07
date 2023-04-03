@@ -539,83 +539,19 @@ ul {
 
 
 
-.footer-subscribe-label-text{
-    display: block;
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;   
-}
-
-.footer-subscribe-form-input{
-    min-width: 264px;
-    height: 40px;
-    padding: 0 0 0 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    /* position: absolute; */
-    /* bottom: -58px;
-    left: 0; */
-    background-color: #2E2F42;
-    font-size: 12px;
-    line-height: 2;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-subscribe-form-input:focus-visible{
-    outline: none;
-}
 
 
+/* внес */
 
-.footer-subscribe-btn{    
-    font-family: 'Roboto' , sans-serif;
-    padding: 8px 16px 8px 24px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    color: var(--main-title-color);
-    margin: 0 auto;
+.footer-modal-form-submit {
+    transition: background-color var(--semofor-button-grunt);
+  }
+
+  .footer-modal-form-submit:hover,
+  .footer-modal-form-submit:focus {
+    background-color: var(--color-button-link);
     cursor: pointer;
-    border-radius: 4px;
-    border: 1px solid var(--color-tmp-brdr);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    
-}
-
-
-.footer-subscribe-text-btn{
-    max-width: 165px;
-    margin-right: 16px;
-}
-
-.footer-subscribe-btn-icon{
-    background-color: var(--color-logo-button);
-    fill: #ffffff;
-    transition: var(--semofor-button-grunt);
-}
-
-.footer-subscribe-button{
-    background-color: var(--color-logo-button); 
-    transition: var(--semofor-button-grunt);    
-}
-
-.footer-subscribe-button:hover,
-.footer-subscribe-button:focus{
-    background-color: var(--color-button-link);
-}
-
-.footer-subscribe-button:hover  .footer-subscribe-btn-icon,
-.footer-subscribe-button:focus  .footer-subscribe-btn-icon{
-    background-color: var(--color-button-link);
-}
+  }
 
 
 /*------ portfolio -----*/
