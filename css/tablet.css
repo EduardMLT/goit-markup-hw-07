@@ -173,7 +173,7 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        margin-left: 78px;
+        margin-left: 94px;
     }
 
     .footer-block{        
@@ -252,7 +252,7 @@ screen and (min-resolution: 2dppx) and  (min-width: 767px)
 
 @media screen and (min-width: 767px) {
     .modal-modal{
-        width: 408px;
+        max-width: 408px;
         height: 586px;
     }
 
