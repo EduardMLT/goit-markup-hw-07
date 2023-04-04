@@ -187,7 +187,9 @@ screen and (min-resolution: 2dppx) and  (min-width: 1200px)
     } 
 
     .footer-block-block{
-        margin-left: 22px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
     }
 
     .footer-block-social{        
