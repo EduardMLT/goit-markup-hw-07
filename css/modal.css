@@ -27,9 +27,9 @@
 }
 
 button{
-    padding: 0;
+    padding: 4px 0 0 0;
     border-width: 0;
-    /* writing-mode: 0; */
+    background: transparent;
 }
 
 .modal-burger-color{

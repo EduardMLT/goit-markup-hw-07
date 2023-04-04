@@ -161,10 +161,10 @@
     }
 }
 
-/* @media screen and (max-width: 427px) {
+@media screen and (max-width: 427px) {
     .mobile-menu-text-tel {
       font-size: 25px;
     }
-  } */
+  } 
 
 
